@@ -1,0 +1,21 @@
+.hero {
+  /* padding: 1rem; */
+  padding-inline: 1rem;
+}
+
+.hero h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.hero p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-gray900);
+  margin: 0;
+}
