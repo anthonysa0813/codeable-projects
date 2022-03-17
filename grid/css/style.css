@@ -8,6 +8,7 @@
   --color-gray600: #4b5563;
   --color-gray100: #f3f4f6;
   --color-pink600: #db2777;
+  --color-pink500: #d44a78;
   --color-white: #ffffff;
   --color-stone: #57534e;
 }
@@ -21,6 +22,10 @@ p {
 }
 .debug {
   border: 3px solid var(--color-pink600);
+}
+
+.text-center {
+  text-align: center;
 }
 
 .wrapper {

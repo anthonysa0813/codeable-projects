@@ -1,0 +1,65 @@
+i {
+  font-size: 1rem;
+  color: black;
+}
+
+i {
+  color: var(--color-pink500);
+}
+
+i:hover {
+  color: var(--color-gray900);
+  transition: 0.3s;
+}
+
+.skillsContainer {
+  background: var(--color-white);
+  padding-inline: 1rem;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 35px;
+}
+
+.skillBox {
+  display: flex;
+  gap: 19px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoContainer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.skillGrid h4 {
+  margin: 0;
+  margin-block-end: 12px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.titleContainer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+}
+@media (min-width: 768px) {
+  .skillGrid {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
