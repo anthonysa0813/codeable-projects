@@ -2,9 +2,15 @@
 @import url("./hero.css");
 @import url("./main.css");
 @import url("./footer.css");
+@import url("./form.css");
+
+* {
+  box-sizing: border-box;
+}
 
 :root {
   --color-gray900: #111827;
+  --color-gray700: #374151;
   --color-gray600: #4b5563;
   --color-gray100: #f3f4f6;
   --color-pink600: #db2777;

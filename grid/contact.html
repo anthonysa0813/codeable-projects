@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="">
+      <div class="wrapper">
+        <div class="headerContainer">
+          <h1 class="text-gray900">Anthony S.</h1>
+          <nav class="">
+            <ul class="font-inter">
+              <li>
+                <a href="/index.html" class="text-pink">Articles</a>
+              </li>
+              <li>
+                <a href="./portafolio.html" class="text-pink">Portafolio</a>
+              </li>
+              <li>
+                <a href="/about.html" class="text-pink">About</a>
+              </li>
+            </ul>
+            <a href="#" class="button bg-pink600 text-white">Contact Me</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-form">
+      <div class="wrapper">
+        <h2 class="text-center">Contact Me</h2>
+        <p class="text-center">
+          Looking to expand your team? Or do you need a web developer for a
+          specific project? If I can help you in any way don't hesitate to fill
+          this form.
+        </p>
+        <div class="formContainer">
+          <form action="" class="form">
+            <label for="name">
+              First Name
+              <input type="text" name="name" id="name" placeholder="Jhon" />
+            </label>
+            <label for="lastname">
+              Last Name
+              <input
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="Doe"
+              />
+            </label>
+
+            <label for="email">
+              Email
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="john@mail.com"
+              />
+            </label>
+            <label for="company">
+              Company
+              <input
+                type="text"
+                name="company"
+                id="company"
+                placeholder="Company SA"
+              />
+            </label>
+            <label for="phone">
+              Phone
+              <input type="tel" name="phone" id="phone" />
+            </label>
+            <label for="country">
+              Country
+              <input type="text" name="country" list="country" />
+              <datalist id="country">
+                <option value="pe">Perú</option>
+                <option value="ch">Chile</option>
+                <option value="ar">Argentina</option>
+                <option value="cl">Colombia</option>
+                <option value="ec">Ecuador</option>
+                <option value="bo">Bolivia</option>
+              </datalist>
+            </label>
+            <div class="othersInformations">
+              <label>How can I help you?</label>
+              <div class="infoContainer">
+                <div class="infoContent">
+                  <input type="checkbox" />
+                  <div class="infoText">
+                    <p>Job Offer</p>
+                    <p>If you are looking to expand your team</p>
+                  </div>
+                </div>
+                <div class="infoContent">
+                  <input type="checkbox" />
+                  <div class="infoText">
+                    <p>Project Offer</p>
+                    <p>If you are looking to expand your team</p>
+                  </div>
+                </div>
+                <div class="infoContent">
+                  <input type="checkbox" />
+                  <div class="infoText">
+                    <p>Collaboration</p>
+                    <p>If you are looking to expand your team</p>
+                  </div>
+                </div>
+                <div class="infoContent">
+                  <input type="checkbox" />
+                  <div class="infoText">
+                    <p>Other</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn bg-pink600">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Can I help you?</h2>
+      <a type="button" class="button bg-pink600 text-white">Get in touch!</a>
+    </footer>
+  </body>
+</html>
