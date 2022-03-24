@@ -10,17 +10,22 @@ header {
 }
 
 nav {
-  display: flex;
+  display: none;
   /* justify-content: ; */
+
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   /* gap: 40px; */
   gap: 1rem;
+  width: 100%;
+  transition: all 0.3s;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 100%;
   gap: 1.5rem;
@@ -37,6 +42,26 @@ nav ul li {
 
 nav a {
   text-decoration: none;
+}
+
+.headerContainer a:last-of-type {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-block-start: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  nav {
+    display: flex;
+    width: auto;
+  }
+  .headerContainer ul {
+    flex-direction: row;
+  }
+  .headerContainer a:last-of-type {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
