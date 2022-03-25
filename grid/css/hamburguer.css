@@ -13,10 +13,14 @@
 }
 
 .desactive {
-  display: none;
+  /* display: none; */
+
+  opacity: 0;
 }
 .active {
   display: flex;
+  opacity: 1;
+  transition: all 0.3s ease;
 }
 
 #hamburguerContainer span {
@@ -119,6 +123,7 @@
 
 @media screen and (min-width: 500px) {
   #hamburguerContainer {
-    display: none;
+    /* display: none; */
+    opacity: 0;
   }
 }

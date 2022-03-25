@@ -4,15 +4,22 @@
 @import url("./footer.css");
 @import url("./form.css");
 @import url("./hamburguer.css");
+@import url("./principal.css");
 
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 :root {
   --color-gray900: #111827;
   --color-gray700: #374151;
   --color-gray600: #4b5563;
+  --color-gray500: #6b7280;
   --color-gray100: #f3f4f6;
   --color-pink600: #db2777;
   --color-pink500: #d44a78;
@@ -31,6 +38,9 @@ p {
   border: 3px solid var(--color-pink600);
 }
 
+header h1 a {
+  color: var(--color-gray900);
+}
 .text-center {
   text-align: center;
 }
@@ -43,6 +53,11 @@ p {
 .button {
   padding: 8px 12px;
   border-radius: 0.5rem;
+}
+
+.outline-bg-pink600 {
+  border: 2px solid var(--color-pink600);
+  color: #111827;
 }
 
 .bg-pink600 {

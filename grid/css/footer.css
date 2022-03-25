@@ -24,4 +24,5 @@ footer a {
   font-weight: 500;
   font-size: 18px;
   line-height: 18px;
+  margin-block-start: 1.5rem;
 }
